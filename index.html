@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tablet Falling Words Game</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div id="game-container"></div>
+    
+    <div id="score-container">
+        <div id="player1" class="player-score">P1: <span id="score1">0</span></div>
+        <div id="player2" class="player-score">P2: <span id="score2">0</span></div>
+        <div id="player3" class="player-score">P3: <span id="score3">0</span></div>
+        <div id="player4" class="player-score">P4: <span id="score4">0</span></div>
+    </div>
+    
+    <div id="timer-container">Time: <span id="timer">60</span>s</div>
+    <div id="controls-info">
+        Keyboard Controls: Player 1 (Q), Player 2 (W), Player 3 (E), Player 4 (R) | Pause (P) | Quit (Esc)
+    </div>
+    
+    <button id="pause-btn">PAUSE</button>
+    <button id="quit-btn">QUIT</button>
+    
+    <div id="controls-container">
+        <button id="player1-btn" class="control-btn">PLAYER 1</button>
+        <button id="player2-btn" class="control-btn">PLAYER 2</button>
+        <button id="player3-btn" class="control-btn">PLAYER 3</button>
+        <button id="player4-btn" class="control-btn">PLAYER 4</button>
+    </div>
+    
+    <div id="pause-indicator">PAUSED</div>
+    
+    <div id="level-selection">
+        <h1>Select Year Group</h1>
+        <div class="level-buttons">
+            <button class="level-btn" data-level="1">Year 1</button>
+            <button class="level-btn" data-level="2">Year 2</button>
+            <button class="level-btn" data-level="3">Year 3</button>
+            <button class="level-btn" data-level="4">Year 4</button>
+            <button class="level-btn" data-level="5">Year 5</button>
+            <button class="level-btn" data-level="6">Year 6</button>
+            <button class="level-btn" data-level="7">Year 7</button>
+            <button class="level-btn" data-level="8">Year 8</button>
+            <button class="level-btn" data-level="9">Year 9</button>
+        </div>
+    </div>
+    
+    <div id="game-over">
+        <h2>Game Over!</h2>
+        <p>Final Scores:</p>
+        <p>Player 1: <span id="final-score1">0</span></p>
+        <p>Player 2: <span id="final-score2">0</span></p>
+        <p>Player 3: <span id="final-score3">0</span></p>
+        <p>Player 4: <span id="final-score4">0</span></p>
+        <div id="winner-display" class="winner"></div>
+        <button id="play-again-btn" class="game-over-btn">PLAY AGAIN</button>
+        <button id="exit-game-btn" class="game-over-btn">END GAME</button>
+    </div>
+
+    <audio id="score-sound" preload="auto">
+        <source src="sounds/score.mp3" type="audio/mpeg">
+    </audio>
+    
+    <audio id="game-over-sound" preload="auto">
+        <source src="sounds/gameover.mp3" type="audio/mpeg">
+    </audio>
+    
+    <audio id="background-music" loop preload="auto">
+        <source src="sounds/background.mp3" type="audio/mpeg">
+    </audio>
+
+    <script src="js/game.js"></script>
+</body>
+</html>
