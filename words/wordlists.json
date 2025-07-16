@@ -1,7 +1,9 @@
 {
     "1": ["cat", "dog", "sun", "hat", "pen", "box", "red", "leg", "eye", "arm", "mat", "bat", "fat", "rat"],
     "2": ["apple", "house", "water", "queen", "juice", "train", "frog", "kite"],
-    "3": ["or-nge", "ga-den", "r-bbit", "w-ndow", "b-tter", "y-llow", "j-cket"],
+    "3": ["a gu-tar", "a b-ke", "a t-ddy b-ar", "a sk-pping r-pe", "a sk-teb-ard", "p-ints", 
+        "k-tes", "ch-psticks", "c-mics", "r-ller skates", "a p-ano", "a fl-te", "a b-yblade",
+        "a p-cture", "a p-zzle", "a w-veboard", "a dr-ne", "sn-ck", "br-ad"],
     "4": ["elephant", "computer", "birthday", "mountain", "hospital", "friendly"],
     "5": ["adventure", "beautiful", "dangerous", "education", "furniture"],
     "6": ["government", "helicopter", "immediately", "knowledge", "laboratory"],
